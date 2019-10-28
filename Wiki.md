@@ -13,3 +13,11 @@ jQuery is a JavaScript file that you include in your web pages. jQuery allows yo
 ## Why jQuery?
 
 Everything that jQuery does is able to be done with pure vanilla JavaScript. However, jQuery allows you to complete such tasks with fewer lines of code, and less complexity. jQuery is also accepted in most browsers and is easy to read and maintain. In conclusion, jQuery once you learn the basic selection and methods, can make your JavaScript easy to maintain and you are able to create responsive applications faster.
+
+## Read 03: Flexbox
+
+Flexbox is a one-dimensional layout method for organizing items into rows and columns. Before Flexbox, the main ways to position was positioning and floats. These are still perfectly fine to use but can be frustrating at times when the web page consists of a lot of elements. Flexbox was introduced to make things organized and understandable, it also helps layout containers and the individual items within those containers.
+
+## Flexbox Layout
+
+With Flexbox, you are able to layout major containers on the page with specific properties for those flex-containers. You are also able to target the items individually within those containers with certain flex-item properties. When you set the display:flex on an element, that element becomes a flex-container. All items nested within that element become flex-items and are children of that container. Being able to distinguish the difference between the flex-containers and flex-items are key and will save you a lot of frustration when you are using Flexbox on a web page.
