@@ -13,3 +13,10 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
 }
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
