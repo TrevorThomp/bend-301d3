@@ -37,7 +37,7 @@ function displayPics(){
   }
 
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // When declaring a variable with let, it is able to be scoped to a code block such as the while loop above. This makes the rando variable not defined outside of that block. Whereas the var declaration allows that variable to be reassigned outside the block and JavaScript will try and interpret the variable.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
