@@ -29,3 +29,9 @@ A regular expression(regex) is a sequence of characters that are used to define 
 ### Regex Explantions
 
 Regex have many different approaches for scraping data from strings and input. These are done by a multitude of topics. You have your anchors which are ways you can match any string that starts or ends with certain characters. Quantifiers are used to match strings that are followed by either a certain character or number. Flags are used to sort through more of the string with whatever topics you assign to that flag. This can minimize your regular expression to make it more readable. There are many different approaches to regex, I look forward to learning more about them!
+
+## Read 05: Heroku
+
+Heroku is a container-based cloud Platform as a Service (PaaS). Heroku is used to deploy, manage and scale modern applications. Heroku also has a variety of methods to connect to databases such as mySQL and PostgreSQL. Heroku is similar to what we receive when we use live-server to see our projects being updated in real time locally. Heroku allows you to deploy your application locally, and also online through their free dyno system.
+
+As a new user to Heroku, you are allowed to deploy your applications for up to a month on their dyno system as long as it is being used. If the application is not visited for a certain period of time, then the dyno will stop running. As I mentioned earlier, Heroku offers a variety of tools that are their to enhance developer productivity when developing applications.
