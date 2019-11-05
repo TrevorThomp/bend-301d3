@@ -35,3 +35,21 @@ Regex have many different approaches for scraping data from strings and input. T
 Heroku is a container-based cloud Platform as a Service (PaaS). Heroku is used to deploy, manage and scale modern applications. Heroku also has a variety of methods to connect to databases such as mySQL and PostgreSQL. Heroku is similar to what we receive when we use live-server to see our projects being updated in real time locally. Heroku allows you to deploy your application locally, and also online through their free dyno system.
 
 As a new user to Heroku, you are allowed to deploy your applications for up to a month on their dyno system as long as it is being used. If the application is not visited for a certain period of time, then the dyno will stop running. As I mentioned earlier, Heroku offers a variety of tools that are their to enhance developer productivity when developing applications.
+
+## Read 06: Node.js
+
+### What is Node.js?
+
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+
+Node.js also as great ES6 support so it makes creating applications easier with using the modern syntax. This helps prevent compatibility issues when writing JavaScript for different browsers.
+
+npm is a package manager that gets bundled with Node.js. This a package manager for Javascript, but it's also the world's largest software registry. It currently has over 600,000 packages of JavaScript code available to download.
+
+## Read 07: APIs continued
+
+### What is A REST API?
+
+An API is an application programming interface. It is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.
+
+REST determines how the API looks like. It stands for "Representational State Transfer". REST is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data when you link to a specific URL.
