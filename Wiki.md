@@ -54,8 +54,8 @@ An API is an application programming interface. It is a set of rules that allow 
 
 REST determines how the API looks like. It stands for "Representational State Transfer". REST is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data when you link to a specific URL.
 
-## Read0 08: SQL
+## Read0 08: SQL
 
-SQL stands for Structured Query Language. SQL is use dto communicate with a database. SQL statements are used to perform tasks on databases such as, retrieving data or updating data. There many different statements that SQL can use to do such tasks, but the standard commands: "Select", "Insert", "Update", "Delete", "Create", and "Drop" can typically be used to accomplish most tasks.
+SQL stands for Structured Query Language. SQL is used to communicate with a database. SQL statements are used to perform tasks on databases such as, retrieving data or updating data. There many different statements that SQL can use to do such tasks, but the standard commands: "Select", "Insert", "Update", "Delete", "Create", and "Drop" can typically be used to accomplish most tasks.
 
-SQL databases contains objects that are referred to as tables. These tables are uniquely identified by their names and are comprised of columns and rows. The columns contain the column name, data type, and other attributes. The rows contain the records or data for the columns.
+SQL databases contain objects that are referred to as tables. These tables are uniquely identified by their names and are comprised of columns and rows. The columns contain the column name, data type, and other attributes. The rows contain the records or data for the columns.
