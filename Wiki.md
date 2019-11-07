@@ -54,8 +54,14 @@ An API is an application programming interface. It is a set of rules that allow 
 
 REST determines how the API looks like. It stands for "Representational State Transfer". REST is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data when you link to a specific URL.
 
-## Read0 08: SQL
+## Read 08: SQL
 
 SQL stands for Structured Query Language. SQL is used to communicate with a database. SQL statements are used to perform tasks on databases such as, retrieving data or updating data. There many different statements that SQL can use to do such tasks, but the standard commands: "Select", "Insert", "Update", "Delete", "Create", and "Drop" can typically be used to accomplish most tasks.
 
 SQL databases contain objects that are referred to as tables. These tables are uniquely identified by their names and are comprised of columns and rows. The columns contain the column name, data type, and other attributes. The rows contain the records or data for the columns.
+
+## Read 09: Functional Programming
+
+Functional Programming is very interesting and the logic it uses to emphasize it's importance makes a lot of sense! Functional programming is the paradigm of building functions that don't have mutable data and change state globally. This can be achieved through Pure Functions. These functions don't access global variables to manipulate their data. Instead, these functions take parameters that will only be used in the function especially if the data is being mutated. This is what helps with not mutating global objects that you are using for other functions.
+
+Functional programming also focuses on no side effects. One function should not have a major side effect effecting a lot of other functions throughout your application. You are able to pass functions as arguments, but you shouldn't have multiple functions that are relying on global objects to receive their data. This is what can cause a chain of bugs throughout code that is a mess to debug.
