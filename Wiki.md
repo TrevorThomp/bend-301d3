@@ -71,3 +71,23 @@ Functional programming also focuses on no side effects. One function should not 
 A call stack is a mechanism for an interpreter to keep track of its current place in a script that invokes multiple functions. This stack keeps track of what functions have been invoked and whether or not it moves on to the next function in the stack. Call stacks are single-threaded meaning that they can only do one thing at a time and their code execution is synchronous. It's important to understand the call stack because it's heavily relied on when it comes to Asynchronous JavaScript when we are invoking multiple functions at once throughout the script. 
 
 Although we haven't got into recursion yet, but I'm sure we will in 401. Recursive functions that don't have exit points will cause a stack overflow. It's very similar to a while loop that doesn't have any false conditions and it will cause an infinite loop. A stack overflow error will at least throw an error once it realizes that the call stack has exceeded the memory that should have been allocated to that particular function.
+
+## Read 11: What is a Template Engine?
+
+A template engine is a tool that enables developers to write HTML markup, with the template engine's defined tags that will insert variables into the final output of the template. They also help with running program logic before sending the final HTML to the browser for display.
+
+## What is EJS?
+
+EJS stands for Embedded JavaScript. It is a templating engine that lets users generate HTML with plain JavaScript. Using EJS offers easier ways to interpolate strings. EJS is very useful whenever there is a lot of JavaScript used for the final output of HTML, especially with dynamic content.
+
+## Read 12: EJS Partials
+
+EJS Partials are used for any code that may be repeated throughout your application. It's a very similar concept to components such as your header, footer and other sections of code that may be repeated throughout your application. This is also the concept of modularizing your code so your files can be more precise and not contain so much code in one file.
+
+These partials are created in separate .ejs files, and they are included in the index.ejs to be rendered. This lets you have better separation which overall helps with the readability of your code, but also helping us debug certain areas of code without having to read through a lot of unnecessary code
+
+## Read 13: Sending form data
+
+The web is based around a client/server architecture where the client sends requests to the server using the HTTP protocol, and the servers answers the request using the same protocol. 
+
+The <form> element defines how the data will be sent. The <form> defines how this data will be sent when the user submits the form. These two attributes are action and method. These will point to where data is being sent, and how the request is being handled.
