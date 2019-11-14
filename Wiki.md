@@ -91,3 +91,9 @@ These partials are created in separate .ejs files, and they are included in the 
 The web is based around a client/server architecture where the client sends requests to the server using the HTTP protocol, and the servers answers the request using the same protocol. 
 
 The <form> element defines how the data will be sent. The <form> defines how this data will be sent when the user submits the form. These two attributes are action and method. These will point to where data is being sent, and how the request is being handled.
+
+## Read 14: Database Normalization
+
+Database normalization is a process used to organize a database into tables and columns. The idea for normalization is not avoid having duplicate data. This is done by organizing tables by specific topics and their supporting topics. This will help later on when you are looking to modify your database and not interfere with other columns.
+
+There are three common forms of database normalization: 1st, 2nd, and 3rd or 1NF, 2NF, and 3NF respectively. These forms are progressive so you must satisfy 1NF and 2NF in order to qualify 3NF.
